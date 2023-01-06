@@ -69,7 +69,7 @@ app.get('/posts/:id', (req, res) => {
   </body>
 </html>`;
 
-  res.send(singleHtml)
+  res.send(html);
 })
 
 
