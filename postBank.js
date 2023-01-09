@@ -21,7 +21,7 @@ const data = [
   };
 
   const find = (id) => {
-    const post = data.find(post.id === Number(id));
+    const post = data.find(post => post.id === Number(id));
     return {...post}
   };
 
